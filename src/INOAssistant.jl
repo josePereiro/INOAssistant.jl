@@ -1,5 +1,8 @@
 module INOAssistant
 
-# Write your package code here.
+using LibSerialPort
+using ArgParse
+
+include("read_port.jl")
 
 end
